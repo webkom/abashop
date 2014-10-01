@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-size: 85%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+#header_wrapper {
+    top: 0;
+    background-color: #2e2e2e;
+    border-bottom: 4px solid;
+    border-color: #b11b0f;
+}
+
+#black_nav {
+    height: 50px;
+    color: #fff;
+    font-family: 'PT Sans',"arial black",arial,sans-serif;
+    text-transform: uppercase;
+    background-color: #272525;
+}
+
+#black_nav_wrapper {
+    display: table;
+    margin: 0 auto;
+}
+
+#black_nav_wrapper ul.menuitems {
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#black_nav_wrapper ul.menuitems li {
+    float: left;
+}
+
+#black_nav_wrapper ul.menuitems li.header-logo {
+    padding-left: 25px;
+}
+
+#black_nav_wrapper ul.menuitems li.header-logo a {
+    width: 90px;
+    height: 20px;
+    display: inline-block;
+    padding-left: 0;
+    padding-bottom: 14px;
+    padding-top: 13px;
+    background: url('static/abakus_logo.png') no-repeat center 16px;
+}
+
+#black_nav_wrapper ul.menuitems li.header-text {
+    padding: 16px 0 0 25px;
+}
+
+#content_background {
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+#content_wrapper {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#content .columns {
+	width: auto;
+    height: 100%;
+}
+
+#pagecontent {
+    height: 100%;
+}
+
+#iframe {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    margin-top: -15px;
+    border: 0;
+}
